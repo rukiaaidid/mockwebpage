@@ -1,8 +1,7 @@
-
-
 def lambda_handler(event, context):
-    message = """
-<html lang="en">
+    
+    htmlcode = '''
+    <html>
 
 <head>
     <meta charset="UTF-8">
@@ -33,3 +32,11 @@ def lambda_handler(event, context):
 </body>
 
 </html>
+
+response = {
+        'statusCode': 200,
+        'headers': {"Content-Type": "text/html",},
+        'body': htmlcode
+    }
+    
+    return response
