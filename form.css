@@ -42,8 +42,9 @@ input[type=text], select, textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px;
+  margin-top: 10px;
   margin-bottom: 16px;
+  margin-left: 16px;
   resize: vertical;
 }
 
@@ -51,7 +52,7 @@ input[type=submit] {
   background-color: #5DADE2;
   color: white;
   padding: 12px 20px;
-  border: none;
+  border: 1px;
   border-radius: 4px;
 }
 
