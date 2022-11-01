@@ -58,14 +58,14 @@ input[type=reset] {
     grid-template-columns: 0.5fr 0.5fr;
     height: 100vh;
     padding: 1rem;
-    align-items: center;
+    align-items: left;
 }
 
 
 .hero-container h1 {
     margin-bottom: 2rem;
     font-size: 2rem;
-    align-items: center;
+    align-items: left;
 }
 
 .hero-container p {
