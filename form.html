@@ -16,27 +16,21 @@
       <a href="https://finaltest-ra.s3.amazonaws.com/data.html"> Data </a>
     </div>
   </nav>
-    <div class="container">
-    <h3>Contact us</h3>
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-        </div>
+  <section class="hero">
+    <div class="hero-container">
+        <h1>Please answer the following</h1>
+        <form>
+          <label for="Email Address">Please write your email address in the following box</label>
+          <input type="number" id="birthday" name="birthday"><br><br>
+          <label for="name">Name:</label>
+          <input type="name" id="name" name="user_name" /><br><br>
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" /><br><br>
+          <input type="submit" value="Submit">
+          <form method="POST" action="https://zv2xg1gso1.execute-api.us-east-1.amazonaws.com/secondattempt">
+          <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 
 </html>
